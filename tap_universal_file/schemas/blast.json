@@ -48,16 +48,5 @@
           "format": "date-time",
           "type": "string"
         }
-      },
-    "required": [
-        "name",
-        "link_params",
-        "template",
-        "day",
-        "list_name",
-        "id",
-        "_sdc_file_name",
-        "_sdc_line_number",
-        "_sdc_last_modified"
-    ]
+      }
 }
