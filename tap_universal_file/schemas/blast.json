@@ -1,52 +1,156 @@
 {
-      "$schema": "http://json-schema.org/schema#",
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "link_params": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "template": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "day": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "list_name": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "id": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "_sdc_file_name": {
-          "type": "string"
-        },
-        "_sdc_line_number": {
-          "type": "integer"
-        },
-        "_sdc_last_modified": {
-          "format": "date-time",
-          "type": "string"
+  "streams": [
+    {
+      "tap_stream_id": "blast",
+      "replication_key": "_sdc_last_modified",
+      "replication_method": "INCREMENTAL",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "link_params": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "template": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "day": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "list_name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_sdc_file_name": {
+            "type": "string"
+          },
+          "_sdc_line_number": {
+            "type": "integer"
+          },
+          "_sdc_last_modified": {
+            "format": "date-time",
+            "type": "string"
+          }
         }
-      }
+      },
+      "stream": "blast",
+      "metadata": [
+        {
+          "breadcrumb": [
+            "properties",
+            "name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "link_params"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "template"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "day"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_file_name"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_line_number"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_last_modified"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true,
+            "selected-by-default": true,
+            "table-key-properties": [],
+            "valid-replication-keys": [
+              "_sdc_last_modified"
+            ]
+          }
+        }
+      ]
+    }
+  ]
 }
