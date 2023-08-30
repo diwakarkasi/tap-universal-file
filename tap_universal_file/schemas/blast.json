@@ -20,13 +20,7 @@
         "ueid": {
           "type": ["null","string"]
         }
-      },
-      "required": [
-        "utm_source",
-        "utm_medium",
-        "utm_campaign",
-        "ueid"
-      ]
+      }
     },
     "template": {
       "type": ["null","string"]
