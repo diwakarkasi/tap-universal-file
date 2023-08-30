@@ -50,13 +50,5 @@
       "type": ["null","string"],
       "format": "date-time"
     }
-  },
-  "required": [
-    "name",
-    "link_params",
-    "template",
-    "day",
-    "list_name",
-    "id"
-  ]
+  }
 }
