@@ -1,0 +1,63 @@
+{
+      "$schema": "http://json-schema.org/schema#",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "link_params": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "template": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "day": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "list_name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "_sdc_file_name": {
+          "type": "string"
+        },
+        "_sdc_line_number": {
+          "type": "integer"
+        },
+        "_sdc_last_modified": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+    "required": [
+        "name",
+        "link_params",
+        "template",
+        "day",
+        "list_name",
+        "id",
+        "_sdc_file_name",
+        "_sdc_line_number",
+        "_sdc_last_modified"
+    ]
+}
