@@ -6,21 +6,7 @@
       "type": ["null","string"]
     },
     "link_params": {
-      "type": "object",
-      "properties": {
-        "utm_source": {
-          "type": ["null","string"]
-        },
-        "utm_medium": {
-          "type": ["null","string"]
-        },
-        "utm_campaign": {
-          "type": ["null","string"]
-        },
-        "ueid": {
-          "type": ["null","string"]
-        }
-      }
+      "type": ["null","string"]
     },
     "template": {
       "type": ["null","string"]
