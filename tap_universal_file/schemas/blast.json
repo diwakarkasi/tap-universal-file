@@ -3,22 +3,22 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": ["null","string"]
     },
     "link_params": {
       "type": "object",
       "properties": {
         "utm_source": {
-          "type": "string"
+          "type": ["null","string"]
         },
         "utm_medium": {
-          "type": "string"
+          "type": ["null","string"]
         },
         "utm_campaign": {
-          "type": "string"
+          "type": ["null","string"]
         },
         "ueid": {
-          "type": "string"
+          "type": ["null","string"]
         }
       },
       "required": [
@@ -29,16 +29,26 @@
       ]
     },
     "template": {
-      "type": "string"
+      "type": ["null","string"]
     },
     "day": {
-      "type": "string"
+      "type": ["null","string"]
     },
     "list_name": {
-      "type": "string"
+      "type": ["null","string"]
     },
     "id": {
       "type": "integer"
+    },
+    "_sdc_file_name": {
+      "type": ["null","string"]
+    },
+    "_sdc_line_number": {
+      "type": ["null","integer"]
+    },
+    "_sdc_last_modified": {
+      "type": ["null","string"],
+      "format": "date-time"
     }
   },
   "required": [
